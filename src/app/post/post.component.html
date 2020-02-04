@@ -1,0 +1,15 @@
+<div>
+<mat-form-field>
+    <input matInput  placeholder="ID" [(ngModel)]="id"> 
+</mat-form-field>
+<mat-form-field>
+    <input matInput  placeholder="UserId" [(ngModel)]="userId"> 
+</mat-form-field>
+<mat-form-field>
+    <textarea matInput  placeholder="Body" [(ngModel)]="Body"> </textarea>
+</mat-form-field>
+<mat-form-field>
+    <textarea matInput  placeholder="Title" [(ngModel)]="Title" > </textarea> 
+</mat-form-field>
+<button mat-raised-button (click)="OnPost()">POST</button>
+</div>
